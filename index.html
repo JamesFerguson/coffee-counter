@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Passenger Counter</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body aria-label="The background is a marble benchtop with a cup of coffee placed artfully in the lower right sitting on top of two dried leaves. In the lower left is a Moka pot with its lid open containing some coffee beans. More coffee beans are strewn sparsely in the bottom right half of the image if it was a right angle triangle with a concave hypotenuse.">
+  <div class="container">
+    <h1>Coffees consumed:</h1>
+    <h2 id="count">0</h2>
+    <button id="increment-btn" onclick="increment()">Another one</button>
+    <button id="save-btn" onclick="save()">Day ended</button>
+    <p id="save-el">Caffeine log by day: </p>
+    <p id="save-entries"><i class="no-data">No days recorded yet.</i></p>
+  </div>
+  <p class="background-image-attribution">Background image by Freepik.</p>
+</body>
+<script src="index.js"></script>
+</html>
